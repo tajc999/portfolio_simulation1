@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script defer src="/javascript.js"></script>
+    <title>Personal Website</title>
+  </head>
+  <body>
+    <nav>
+      <div id="logo">
+        <h1>Rachelle Edwards</h1>
+      </div>
+      <div id="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="portfolio.html">Portfolio</a>
+      </div>
+    </nav>
+    <main>
+      <h2 id="project-header">Things I've built, in no particular order!</h2>
+      <div id="project-container">
+        <section class="project">
+          <h2>My First Website</h2>
+          <div class="project-content">
+            <img
+              class="portfolio-img"
+              src="data:image/png;base64,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"
+              alt="my first website"
+            />
+            <p>
+              The very first website I ever made.
+            </p>
+         </div>
+        </section>
+        <section class="project1">
+          <h2>My Grocery List</h2>
+          <div class="project-content"></div>
+        </section>
+      </div>
+    </section>
+    <section class="project">
+      <h2>The Zoo Project </h2>
+      <div class="project-content"></div>
+    </section>
+  </div>
+</section>
+<section class="project">
+  <h2>The Vault</h2>
+  <div class="project-content"></div>
+</section>
+        </main>
+    <footer>
+      <a href="https://facebook.com" target="_blank">
+        <img class="media-link" src="/images/facebook.svg" alt="Facebook" />
+      </a>
+      <a href="https://linkedin.com" target="_blank">
+        <img class="media-link" src="/images/linkedin.svg" alt="Linkedin" />
+      </a>
+      <a href="https://twitter.com" target="_blank">
+        <img class="media-link" src="/images/twitter.svg" alt="Twitter" />
+      </a>
+    </footer>
+  </body>
+</html>
